@@ -88,6 +88,40 @@
           text-align: center;
           font-style: italic;
         }
+            nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 1em 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  font-weight: bold;
+  color: #939;
+  padding: 0.5em;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #fff;
+  border-radius: 5px;
+}
     </style>
     </head>
 
